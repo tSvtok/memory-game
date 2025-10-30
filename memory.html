@@ -1,81 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memory Game</title>
     <link rel="stylesheet" href="memory.css">
 </head>
 <body>
-    <!-- Home Page -->
     <div id="home">
-        <h1> Memory Game</h1>
-        <button onclick="showLevel('easy')">Easy</button>
-        <button onclick="showLevel('medium')">Medium</button>
-        <button onclick="showLevel('hard')">Hard</button>
+        <h1>Memory Game</h1>
+        <button onclick="showLevel('easy')">Facile</button>
+        <button onclick="showLevel('medium')">Moyen</button>
+        <button onclick="showLevel('hard')">Difficile</button>
     </div>
 
-    <!-- Easy Level -->
     <div id="easy" class="level" style="display:none;">
-        <h2> Easy Level</h2>
+        <h2>Niveau Facile</h2>
         <div class="page_head">
-            <div class="timer">
-            </div>
-            <h4>SCORE :</h4>
+            <div class="timer"></div>
+            <h4>SCORE : 0</h4>
         </div>
-        <div class="grid" id="easy_cards">Content for Easy Level</div>
-        <button onclick="goHome()">⬅ Back</button>
+        <div class="grid" id="easy_cards"></div>
+        <button onclick="goHome()">⬅ Retour</button>
     </div>
 
-    <!-- Medium Level -->
     <div id="medium" class="level" style="display:none;">
-        <h2> Medium Level</h2>
+        <h2>Niveau Moyen</h2>
         <div class="page_head">
-            <div class="timer">
-            </div>
-            <h4>SCORE :</h4>
+            <div class="timer"></div>
+            <h4>SCORE : 0</h4>
         </div>
-        <div class="grid" id="medium_cards">Content for Medium Level</div>
-        <button onclick="goHome()">⬅ Back</button>
+        <div class="grid" id="medium_cards"></div>
+        <button onclick="goHome()">⬅ Retour</button>
     </div>
 
-    <!-- Hard Level -->
     <div id="hard" class="level" style="display:none;">
-        <h2> Hard Level</h2>
+        <h2>Niveau Difficile</h2>
         <div class="page_head">
-            <div class="timer">
-            </div>
-            <h4>SCORE :</h4> 
+            <div class="timer"></div>
+            <h4>SCORE : 0</h4>
         </div>
-        <div class="grid" id="hard_cards">
-            <div class="card1"></div>
-            <div class="card2"></div>
-            <div class="card3"></div>
-            <div class="card4"></div>
-            <div class="card5"></div>
-            <div class="card6"></div>
-            <div class="card7"></div>
-            <div class="card8"></div>
-            <div class="card9"></div>
-            <div class="card10"></div>
-            <div class="card11"></div>
-            <div class="card12"></div>
-            <div class="card13"></div>
-            <div class="card14"></div>
-            <div class="card15"></div>
-            <div class="card16"></div>
-            <div class="card17"></div>
-            <div class="card18"></div>
-            <div class="card19"></div>
-            <div class="card20"></div>
-            <div class="card21"></div>
-            <div class="card22"></div>
-            <div class="card23"></div>
-            <div class="card24"></div>
-        </div>
-        <button onclick="goHome()">⬅ Back</button>
+        <div class="grid" id="hard_cards"></div>
+        <button onclick="goHome()">⬅ Retour</button>
     </div>
 
     <script src="memory.js"></script>
 </body>
 </html>
-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 
